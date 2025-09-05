@@ -48,21 +48,21 @@ const Index = () => {
               title="SGPA → Percentage"
               description="Convert SGPA values to percentage format for academic documentation and applications."
               icon={<TrendingUp className="w-5 h-5" />}
-              href="/sgpa-to-percentage"
+              href="/sgpatper" 
             />
             
             <ConversionCard
               title="CGPA → Percentage"
               description="Transform CGPA to percentage format for professional and educational requirements."
               icon={<Calculator className="w-5 h-5" />}
-              href="/cgpa-to-percentage"
+              href="/cgpatper"
             />
             
             <ConversionCard
               title="SGPA → CGPA"
               description="Calculate cumulative GPA from semester grades with automatic classification."
               icon={<Award className="w-5 h-5" />}
-              href="/sgpa-to-cgpa"
+              href="/sgpatcgpa"
             />
           </div>
         </div>

@@ -19,9 +19,9 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/sgpa-to-percentage" element={<SgpaToPercentage />} />
-          <Route path="/cgpa-to-percentage" element={<CgpaToPercentage />} />
-          <Route path="/sgpa-to-cgpa" element={<SgpaToCgpa />} />
+          <Route path="/sgpatper" element={<SgpaToPercentage />} />
+          <Route path="/cgpatper" element={<CgpaToPercentage />} />
+          <Route path="/sgpatcgpa" element={<SgpaToCgpa />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
